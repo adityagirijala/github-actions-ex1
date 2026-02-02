@@ -1,0 +1,13 @@
+name: CI CD workflow
+on:
+  push:
+  
+jobs:
+  build-job:
+   runs-on: ubuntu-latest
+   steps:
+     - run: |
+        echo "Build"
+  
+
+  
